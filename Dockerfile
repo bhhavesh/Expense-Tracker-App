@@ -21,7 +21,7 @@ RUN mvn clean install -DskipTests=true
 #ENTRYPOINT ["java", "-jar", "/expenseapp.jar"]
 
 #--------------------------------------
-# Stage 2 - app build
+# Stage 2 - app build--
 #--------------------------------------
 
 # Import small size java image
